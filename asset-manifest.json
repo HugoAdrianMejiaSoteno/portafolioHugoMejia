@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolioHugoMejia/static/css/main.42ccc3cf.css",
-    "main.js": "/portafolioHugoMejia/static/js/main.b0e1038b.js",
+    "main.js": "/portafolioHugoMejia/static/js/main.80d49abf.js",
     "static/js/787.ae0d8d37.chunk.js": "/portafolioHugoMejia/static/js/787.ae0d8d37.chunk.js",
     "static/media/Hugo-naranja.jpg": "/portafolioHugoMejia/static/media/Hugo-naranja.f59afde4e8dfcdb2a6df.jpg",
     "static/media/QuienesSomos.png": "/portafolioHugoMejia/static/media/QuienesSomos.8f56d45f11aeeb225e91.png",
@@ -19,11 +19,11 @@
     "static/media/UnitecLogo.jpeg": "/portafolioHugoMejia/static/media/UnitecLogo.093a1d51d2622dceb722.jpeg",
     "index.html": "/portafolioHugoMejia/index.html",
     "main.42ccc3cf.css.map": "/portafolioHugoMejia/static/css/main.42ccc3cf.css.map",
-    "main.b0e1038b.js.map": "/portafolioHugoMejia/static/js/main.b0e1038b.js.map",
+    "main.80d49abf.js.map": "/portafolioHugoMejia/static/js/main.80d49abf.js.map",
     "787.ae0d8d37.chunk.js.map": "/portafolioHugoMejia/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.42ccc3cf.css",
-    "static/js/main.b0e1038b.js"
+    "static/js/main.80d49abf.js"
   ]
 }
