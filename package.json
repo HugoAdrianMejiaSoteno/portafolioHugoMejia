@@ -1,8 +1,8 @@
 {
+  "homepage": "https://HugoAdrianMejiaSoteno.github.io/portafolioHugoMejia",
   "name": "portafolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://HugoAdrianMejiaSoteno.github.io/PortafolioReact",
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",

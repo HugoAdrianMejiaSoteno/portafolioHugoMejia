@@ -14,7 +14,7 @@ const Proyectos = ()=>{
                 <h1 className="intro-proyectos"><span className="blue">M</span>is <span className="orange">p</span>royectos</h1>
             </div>
             <Proyecto imagen={Metas} titulo="Aplicacion de metas" descripcion="Aplicación de metas FullStack desarrollada con Nodejs, Reactjs y SQL" link="https://hugoadrianmejiasoteno.github.io/metasapp/" repositorio="https://github.com/HugoAdrianMejiaSoteno/metasapp"/>
-            <Proyecto imagen={Portafolio} titulo="Portafolio personal" descripcion="Portafolio personal desarrollado con Reactjs" link="https://hugoadrianmejiasoteno.github.io/PortafolioReact/" repositorio="https://github.com/HugoAdrianMejiaSoteno/PortafolioReact"/>
+            <Proyecto imagen={Portafolio} titulo="Portafolio personal" descripcion="Portafolio personal desarrollado con Reactjs" link="https://hugoadrianmejiasoteno.github.io/portafolioHugoMejia/" repositorio="https://github.com/HugoAdrianMejiaSoteno/portafolioHugoMejia"/>
             <Proyecto imagen={Encriptador} titulo="Encriptador de texto" descripcion="Encriptador y desencriptador de textos desarrollado con JavaScript Vanilla" link="https://hugoadrianmejiasoteno.github.io/Encriptador-ONE/" repositorio="https://github.com/HugoAdrianMejiaSoteno/Encriptador-ONE"/>
             <Proyecto imagen={QuienesSomos} titulo="Quienes somos" descripcion="Landing page sobre informacion de una empresa desarrollada con HTML y CSS" link="https://hugoadrianmejiasoteno.github.io/ApeperiaAlura/"/>
             <Proyecto imagen={Apeperia} titulo="Tienda de papeleria" descripcion="Landing page de papeleria Apeperia desarrollada con HTML y CSS" link="https://hugoadrianmejiasoteno.github.io/ApeperiaAlura/" />

@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portafolioHugoMejia/static/css/main.42ccc3cf.css",
+    "main.js": "/portafolioHugoMejia/static/js/main.80d49abf.js",
+    "static/js/787.ae0d8d37.chunk.js": "/portafolioHugoMejia/static/js/787.ae0d8d37.chunk.js",
+    "static/media/Hugo-naranja.jpg": "/portafolioHugoMejia/static/media/Hugo-naranja.f59afde4e8dfcdb2a6df.jpg",
+    "static/media/QuienesSomos.png": "/portafolioHugoMejia/static/media/QuienesSomos.8f56d45f11aeeb225e91.png",
+    "static/media/Apeperia.png": "/portafolioHugoMejia/static/media/Apeperia.d4e8ba64db3b3eaad318.png",
+    "static/media/404.png": "/portafolioHugoMejia/static/media/404.1e7e2cfabd346a69a66a.png",
+    "static/media/Hugo.jpg": "/portafolioHugoMejia/static/media/Hugo.60a28a9a701d4c46fb32.jpg",
+    "static/media/Programacion.jpg": "/portafolioHugoMejia/static/media/Programacion.8140220115ba2a90c9fc.jpg",
+    "static/media/Portafolio.png": "/portafolioHugoMejia/static/media/Portafolio.e8eee3cec72b0e804f18.png",
+    "static/media/Encriptador.png": "/portafolioHugoMejia/static/media/Encriptador.9bf25c646ccbc694cff9.png",
+    "static/media/metasapp.png": "/portafolioHugoMejia/static/media/metasapp.c676c2be8dde68826fff.png",
+    "static/media/Oracle.png": "/portafolioHugoMejia/static/media/Oracle.928acd777bd3d05d43e7.png",
+    "static/media/Alura.png": "/portafolioHugoMejia/static/media/Alura.596d2952d5a885d04917.png",
+    "static/media/freeCode.jpeg": "/portafolioHugoMejia/static/media/freeCode.24e008e3eca383a1657a.jpeg",
+    "static/media/Planes.png": "/portafolioHugoMejia/static/media/Planes.7b2077d274536cd3a12b.png",
+    "static/media/UnitecLogo.jpeg": "/portafolioHugoMejia/static/media/UnitecLogo.093a1d51d2622dceb722.jpeg",
+    "index.html": "/portafolioHugoMejia/index.html",
+    "main.42ccc3cf.css.map": "/portafolioHugoMejia/static/css/main.42ccc3cf.css.map",
+    "main.80d49abf.js.map": "/portafolioHugoMejia/static/js/main.80d49abf.js.map",
+    "787.ae0d8d37.chunk.js.map": "/portafolioHugoMejia/static/js/787.ae0d8d37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42ccc3cf.css",
+    "static/js/main.80d49abf.js"
+  ]
+}
