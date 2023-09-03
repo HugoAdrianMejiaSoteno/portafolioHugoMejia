@@ -1,0 +1,48 @@
+.skill-container {
+    background: linear-gradient(45deg, #00669c, #e34e26, #f8dc3e, #80bd03);
+    height: 150px;
+    width: 150px;
+    padding-left: 10px;
+    margin: 20px;
+}
+
+.skill-container:hover{
+    background-color: white;
+    box-shadow: inset 0 0 0 3px white; /*Es como un border interno*/
+    .skill-titulo{
+        color: white;
+    }
+}
+.skill-container.html{
+    background-color: orange;
+}
+
+.skill-container-icono{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    height: 60%;
+}
+
+.skill-titulo-container{
+    margin-top: 0px;
+    height: 20%;
+}
+
+.skill-titulo{
+    font-size: 15px;
+}
+
+@media (max-width: 768px) {
+    /* Estilos a aplicar cuando el ancho de la pantalla es igual o menor a 768px */
+    .skill-container {
+        height: 100px;
+        width: 100px;
+    }
+    .skill-titulo{
+        font-size: 12px;
+    }
+    /* Otros estilos... */
+  }

@@ -1,0 +1,177 @@
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    position: relative;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.MiNombre {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.MiNombre h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+    height: 50px;
+    width: 350px;
+}
+
+.nombre {
+    font-family: 'Raleway';
+    color: #464646;
+}
+
+.MiNombre h3:hover{
+    background-color: #fff0c9;
+    cursor: pointer;
+}
+
+.icono {
+    transform: scale(3.5);/*Para hacer mas grande el icono*/
+}
+
+.menu{
+    width: 50%;
+}
+.menu-list {
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-list-item {
+    /*Para que se queden las li uno alado del otro en el nav*/
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 15px;
+    height: 35px;
+}
+
+
+.menu-list-item p{
+    display: flex;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+
+
+.menu-list-item:last-child {
+    font-weight: bold;
+}
+
+
+.menu-list-item p:hover {
+    color: hsl(0, 0%, 0%);
+    font-weight: 500;
+    border-bottom: 4px solid #fff0c9;
+}
+
+.yellow{
+    color: #f8dc3e;
+    margin-left: 6px;
+}
+
+.blue{
+    color: #00669c;
+    margin-left: 6px;
+}
+
+.orange{
+    color: #e34e26;
+    margin-left: 6px;
+}
+
+.green{
+    color: #80bd03;
+    margin-left: 6px;
+}
+
+@media (max-width: 768px) {
+    /* Estilos a aplicar cuando el ancho de la pantalla es igual o menor a 768px */
+    .header {
+      padding-top: 0px;
+      margin-top: 0px;
+      height: 150px;
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .MiNombre{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        height: 80px;
+        height: 60px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .icono{
+        display: none;
+    }
+
+    .nombre{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+    }
+
+    .menu{
+        height: 100px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .menu-list{
+        height: 100px;
+        padding-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .menu-list-item{
+        margin-left: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100px;
+        margin: 5px;
+    }
+  }

@@ -1,0 +1,56 @@
+.card-container{
+  height: 250px;
+  width: 380px;
+}
+
+.card-container:hover{
+  .titulo-training{
+    color: #80bd03;
+  }
+  .titulo-training::first-letter{
+    color: #80bd03;
+  }
+}
+
+.training-container {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-training{
+  height: 150px;
+  width: 300px;
+}
+
+.text-training-container {
+  height: 20%;
+}
+
+.titulo-training{
+  margin-top: 5px;
+  font-size: 20px;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+.titulo-training::first-letter{
+  color: #e34e26;
+}
+
+
+.text-training {
+  margin-top: 0px;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+
+@media (max-width: 768px) {
+  /* Estilos a aplicar cuando el ancho de la pantalla es igual o menor a 768px */
+  .card-container{
+    margin: 20px;
+  }
+}
