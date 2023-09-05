@@ -201,7 +201,7 @@
     /* Estilos a aplicar cuando el ancho de la pantalla es igual o menor a 768px */
     .presentation-container {
         height: 100%;
-        margin-top: 0px;
+        margin-top: 70px;
         padding-top: 0px;
     }
 
@@ -237,6 +237,10 @@
     }
 
     .textoGen{
+        position: static;
+    }
+
+    .textoCont .textoGen{
         position: static;
     }
 

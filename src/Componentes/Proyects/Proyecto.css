@@ -52,8 +52,17 @@
     align-items: center;
 }
 
+.MuiButton-root{
+    position: static;
+}
 
+.prueba{
+    position: static;
+}
 
+.botones-proyecto{
+    position: static;
+}
 @media (max-width: 768px) {
     /* Estilos a aplicar cuando el ancho de la pantalla es igual o menor a 768px */
     .Proyecto-container {
@@ -123,5 +132,8 @@
         height: 30px;
         margin-top: 10px;
 
+    }
+    .MuiButton-root{
+        position: static;
     }
   }

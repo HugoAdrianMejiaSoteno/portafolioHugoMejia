@@ -46,6 +46,7 @@
 @media (max-width: 768px) {
     /* Estilos a aplicar cuando el ancho de la pantalla es igual o menor a 768px */
     .about-container{
+        margin-top: 70px;
     }
 
     .about-inicio{

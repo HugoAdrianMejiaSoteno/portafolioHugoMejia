@@ -14,7 +14,7 @@ const Proyecto = ({imagen, titulo, descripcion, link, repositorio})=>{
                 </div>
                 <div className="botones-proyecto">
                     <Button variant="outlined" size="medium" className="MuiButton-root" href={link} >Ver demo</Button>
-                    <Button variant="contained" size="medium" href={repositorio}>Repositorio</Button>
+                    <Button variant="contained" size="medium" className="prueba" href={repositorio}>Repositorio</Button>
                 </div>
             </div>
         </div>

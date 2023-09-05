@@ -123,11 +123,10 @@ a {
     .header {
       padding-top: 0px;
       margin-top: 0px;
-      height: 150px;
-      flex-direction: column;
+      height: 60px;
       display: flex;
-      justify-content: center;
-      align-items: flex-start;
+      justify-content: space-between;
+      align-items: center;
     }
 
     .MiNombre{
@@ -136,11 +135,12 @@ a {
         padding-top: 0px;
         height: 80px;
         height: 60px;
-        width: 100%;
+        width: 70%;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        padding-left: 20px;
     }
 
     .icono{
@@ -152,31 +152,93 @@ a {
         align-items: center;
         justify-content: center;
         height: 50px;
+        width: 90%;
+    }
+
+    .nombre h3 {
+        font-size: 20px;
+    }
+
+    .btn-navbar{
+        display: flex;
+        margin-top: 8px;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 10%;
+        margin-right: 20px;
+        padding: 0px;
+        height: 70%;
+    }
+    .btn-navbar span {
+        width: 30px;
+        height: 4px;
+        background-color: black;
+        margin-bottom: 5px;
+        border-radius: 2px;
+        transform-origin: 5px 0px;
+        transition: all 0.2s linear;
+    }
+
+    .btn-navbar.open >span{
+        transform: rotate(45deg) translate(0px, -1px);
+    }
+
+    .btn-navbar.open >span:nth-child(2){
+        display: none;
+    }
+
+    .btn-navbar.open >span:nth-child(3){
+        transform: rotate(-45deg) translate(-4px, 1px);
     }
 
     .menu{
-        height: 100px;
-        display: flex;
+        background: #00669c;
+        color: white;
+        position: absolute;
+        top: 60px;
+        left: 70%;
         align-items: center;
-        width: 100%;
+        width: 30%;
+        height: 235px;
+        transform: translateX(100%);
+        transition: 0.3s ease all; /*Esta es una transicion de que entra suavecito*/
+    }
+
+    .menu.var {
+        transform: translateX(0%);
     }
 
     .menu-list{
-        height: 100px;
+        height: 100%;
+        width: 100%;
         padding-left: 0px;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        
     }
 
     .menu-list-item{
+        
         margin-left: 0px;
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
-        width: 100px;
-        margin: 5px;
+        width: 100%;
+        border-bottom: 4px solid #f8dc3e;
+    }
+    .menu-list-item p:hover {
+        border-bottom: 0px
+    }
+    .menu-list-item p:hover {
+        border-bottom: 0px
+    }    .menu-list-item p {
+        color: white;
+        font-weight: 500;
     }
   }
