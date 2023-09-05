@@ -1,6 +1,7 @@
 .Proyectos-container{
     width: 100%;
     height: 800px;
+    margin-top: 90px; /*Esto es para que haya un margen con el header que ya esta ajustado y fijo*/
 }
 
 .intro-proyectos{

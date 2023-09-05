@@ -5,4 +5,5 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 70px; /*Esto es para que haya un margen con el header que ya esta ajustado y fijo*/
 }

@@ -10,14 +10,16 @@ a {
 }
 
 .header {
-    position: relative;
-    padding-top: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: 70px;
     width: 100%;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: white;
 }
 
 .MiNombre {
@@ -25,6 +27,7 @@ a {
     align-items: center;
     justify-content: space-evenly;
     width: 50%;
+    height: 100%;
 }
 
 .MiNombre h3{
@@ -52,12 +55,14 @@ a {
 
 .menu{
     width: 50%;
-}
-.menu-list {
-    align-items: center;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.menu-list {
+    margin:0px;
+    padding: 0px;
 }
 
 .menu-list-item {

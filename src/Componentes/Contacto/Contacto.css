@@ -1,5 +1,6 @@
 
 .contacto-container{
+    margin-top: 70px; /*Esto es para que haya un margen con el header que ya esta ajustado y fijo*/
     width: 100%;
     height: 615px;
     display: flex;
