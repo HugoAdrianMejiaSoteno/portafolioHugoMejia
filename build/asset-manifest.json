@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolioHugoMejia/static/css/main.42ccc3cf.css",
-    "main.js": "/portafolioHugoMejia/static/js/main.80d49abf.js",
+    "main.css": "/portafolioHugoMejia/static/css/main.09304445.css",
+    "main.js": "/portafolioHugoMejia/static/js/main.2c797f91.js",
     "static/js/787.ae0d8d37.chunk.js": "/portafolioHugoMejia/static/js/787.ae0d8d37.chunk.js",
     "static/media/Hugo-naranja.jpg": "/portafolioHugoMejia/static/media/Hugo-naranja.f59afde4e8dfcdb2a6df.jpg",
     "static/media/QuienesSomos.png": "/portafolioHugoMejia/static/media/QuienesSomos.8f56d45f11aeeb225e91.png",
@@ -18,12 +18,12 @@
     "static/media/Planes.png": "/portafolioHugoMejia/static/media/Planes.7b2077d274536cd3a12b.png",
     "static/media/UnitecLogo.jpeg": "/portafolioHugoMejia/static/media/UnitecLogo.093a1d51d2622dceb722.jpeg",
     "index.html": "/portafolioHugoMejia/index.html",
-    "main.42ccc3cf.css.map": "/portafolioHugoMejia/static/css/main.42ccc3cf.css.map",
-    "main.80d49abf.js.map": "/portafolioHugoMejia/static/js/main.80d49abf.js.map",
+    "main.09304445.css.map": "/portafolioHugoMejia/static/css/main.09304445.css.map",
+    "main.2c797f91.js.map": "/portafolioHugoMejia/static/js/main.2c797f91.js.map",
     "787.ae0d8d37.chunk.js.map": "/portafolioHugoMejia/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42ccc3cf.css",
-    "static/js/main.80d49abf.js"
+    "static/css/main.09304445.css",
+    "static/js/main.2c797f91.js"
   ]
 }

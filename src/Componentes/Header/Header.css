@@ -20,6 +20,7 @@ a {
     width: 100%;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     background-color: white;
+    z-index: 1000; /*Esta maravilla es para asegurar que el header este encima de cualquier elemento al hacer scroll*/
 }
 
 .MiNombre {
