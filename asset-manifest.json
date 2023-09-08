@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolioHugoMejia/static/css/main.fb624a18.css",
-    "main.js": "/portafolioHugoMejia/static/js/main.2c797f91.js",
+    "main.css": "/portafolioHugoMejia/static/css/main.81cc5315.css",
+    "main.js": "/portafolioHugoMejia/static/js/main.21b664ae.js",
     "static/js/787.ae0d8d37.chunk.js": "/portafolioHugoMejia/static/js/787.ae0d8d37.chunk.js",
     "static/media/Hugo-naranja.jpg": "/portafolioHugoMejia/static/media/Hugo-naranja.f59afde4e8dfcdb2a6df.jpg",
     "static/media/QuienesSomos.png": "/portafolioHugoMejia/static/media/QuienesSomos.8f56d45f11aeeb225e91.png",
@@ -15,15 +15,21 @@
     "static/media/Oracle.png": "/portafolioHugoMejia/static/media/Oracle.928acd777bd3d05d43e7.png",
     "static/media/Alura.png": "/portafolioHugoMejia/static/media/Alura.596d2952d5a885d04917.png",
     "static/media/freeCode.jpeg": "/portafolioHugoMejia/static/media/freeCode.24e008e3eca383a1657a.jpeg",
+    "static/media/React.png": "/portafolioHugoMejia/static/media/React.817a3b15dec05de7493d.png",
     "static/media/Planes.png": "/portafolioHugoMejia/static/media/Planes.7b2077d274536cd3a12b.png",
+    "static/media/css.png": "/portafolioHugoMejia/static/media/css.01ad84bccd458a49d44d.png",
     "static/media/UnitecLogo.jpeg": "/portafolioHugoMejia/static/media/UnitecLogo.093a1d51d2622dceb722.jpeg",
+    "static/media/js.png": "/portafolioHugoMejia/static/media/js.5cd895a3689b74ef40ee.png",
+    "static/media/Postgresql.png": "/portafolioHugoMejia/static/media/Postgresql.7fa02e4fdf11ce56cd68.png",
+    "static/media/node.webp": "/portafolioHugoMejia/static/media/node.d56cad3bad539a2b559e.webp",
+    "static/media/html.jfif": "/portafolioHugoMejia/static/media/html.9031ad32f36bec45fa31.jfif",
     "index.html": "/portafolioHugoMejia/index.html",
-    "main.fb624a18.css.map": "/portafolioHugoMejia/static/css/main.fb624a18.css.map",
-    "main.2c797f91.js.map": "/portafolioHugoMejia/static/js/main.2c797f91.js.map",
+    "main.81cc5315.css.map": "/portafolioHugoMejia/static/css/main.81cc5315.css.map",
+    "main.21b664ae.js.map": "/portafolioHugoMejia/static/js/main.21b664ae.js.map",
     "787.ae0d8d37.chunk.js.map": "/portafolioHugoMejia/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb624a18.css",
-    "static/js/main.2c797f91.js"
+    "static/css/main.81cc5315.css",
+    "static/js/main.21b664ae.js"
   ]
 }
