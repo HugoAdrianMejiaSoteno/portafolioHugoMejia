@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portafolioHugoMejia/static/css/main.81cc5315.css",
+    "main.css": "/portafolioHugoMejia/static/css/main.ee96bb37.css",
     "main.js": "/portafolioHugoMejia/static/js/main.21b664ae.js",
     "static/js/787.ae0d8d37.chunk.js": "/portafolioHugoMejia/static/js/787.ae0d8d37.chunk.js",
     "static/media/Hugo-naranja.jpg": "/portafolioHugoMejia/static/media/Hugo-naranja.f59afde4e8dfcdb2a6df.jpg",
@@ -24,12 +24,12 @@
     "static/media/node.webp": "/portafolioHugoMejia/static/media/node.d56cad3bad539a2b559e.webp",
     "static/media/html.jfif": "/portafolioHugoMejia/static/media/html.9031ad32f36bec45fa31.jfif",
     "index.html": "/portafolioHugoMejia/index.html",
-    "main.81cc5315.css.map": "/portafolioHugoMejia/static/css/main.81cc5315.css.map",
+    "main.ee96bb37.css.map": "/portafolioHugoMejia/static/css/main.ee96bb37.css.map",
     "main.21b664ae.js.map": "/portafolioHugoMejia/static/js/main.21b664ae.js.map",
     "787.ae0d8d37.chunk.js.map": "/portafolioHugoMejia/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81cc5315.css",
+    "static/css/main.ee96bb37.css",
     "static/js/main.21b664ae.js"
   ]
 }
