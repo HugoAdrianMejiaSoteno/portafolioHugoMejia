@@ -46,16 +46,32 @@ a {
 }
 
 .MiNombre h3:hover{
-    background-color: #fff0c9;
     cursor: pointer;
 }
 
 .icono {
     transform: scale(3.5);/*Para hacer mas grande el icono*/
 }
+.menu-container{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* esto es para el contenedor q se modifica en el modo moobile pero como lo disenamos para que cambie en movil tmb afecta el desktop so, como se quita y pone pusimos amg bos iguales para no ver cambios en desktop */
+.menu-container-btn{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .menu{
-    width: 50%;
+    width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -154,6 +170,7 @@ a {
         justify-content: center;
         height: 50px;
         width: 90%;
+        
     }
 
     .nombre h3 {
@@ -194,22 +211,36 @@ a {
         transform: rotate(-45deg) translate(-4px, 1px);
     }
 
-    .menu{
-        background: #00669c;
-        color: white;
+    .menu-container{
+        display: none;
+    }
+
+    .menu-container-btn{
+        margin-top: 60px;
+        background-color: rgba(122, 113, 113, 0.508);
         position: absolute;
-        top: 60px;
+        width: 100%;
+        height: 1000px;
+        top: 0%;
+        left: 0%;
+    }
+
+    .menu{
+        background: hsl(0, 0%, 100%);
+        color: black;
+        position: absolute;
+        top: 0%;
         left: 70%;
         align-items: center;
         width: 30%;
-        height: 235px;
+        height: 190px;
         transform: translateX(100%);
-        transition: 0.3s ease all; /*Esta es una transicion de que entra suavecito*/
     }
 
     .menu.var {
         transform: translateX(0%);
     }
+
 
     .menu-list{
         height: 100%;
@@ -220,7 +251,6 @@ a {
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        
     }
 
     .menu-list-item{
@@ -231,7 +261,7 @@ a {
         justify-content: center;
         text-align: center;
         width: 100%;
-        border-bottom: 4px solid #f8dc3e;
+        border-bottom: 2px solid hsl(0, 0%, 0%);
     }
     .menu-list-item p:hover {
         border-bottom: 0px
@@ -239,7 +269,7 @@ a {
     .menu-list-item p:hover {
         border-bottom: 0px
     }    .menu-list-item p {
-        color: white;
+        color: #000000;
         font-weight: 500;
     }
   }

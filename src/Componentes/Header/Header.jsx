@@ -17,16 +17,18 @@ const Header = ()=>{
         <span></span>
         <span></span>
       </div>
-      <nav className={`menu ${open && 'var'}`}>
-        <ul className="menu-list">
-          <li className="menu-list-item"><Link to="/Sobre-mi" onClick={()=>{ setOpen(!open) }}><p>Sobre mi</p></Link></li>
-          <li className="menu-list-item"><Link to="/Skills" onClick={()=>{ setOpen(!open) }}><p>Skills</p></Link></li>
-          <li className="menu-list-item"><Link to="/Proyectos" onClick={()=>{ setOpen(!open) }}><p>Proyectos</p></Link></li>
-          <li className="menu-list-item"><Link to="/Formacion" onClick={()=>{ setOpen(!open) }}><p>Formacion</p></Link></li>
-          <li className="menu-list-item"><Link to="error404" onClick={()=>{ setOpen(!open) }}><p>404</p></Link></li>
-          <li className="menu-list-item"><Link to="/Contacto" onClick={()=>{ setOpen(!open) }}><p>Contacto</p></Link></li>
-        </ul>
-      </nav>
+      <div className={`${ open ? 'menu-container-btn' : 'menu-container'}`}>
+        <nav className={`menu ${open && 'var'}`}>
+            <ul className="menu-list">
+              <li className="menu-list-item"><Link to="/Sobre-mi" onClick={()=>{ setOpen(!open) }}><p>Sobre mi</p></Link></li>
+              <li className="menu-list-item"><Link to="/Skills" onClick={()=>{ setOpen(!open) }}><p>Skills</p></Link></li>
+              <li className="menu-list-item"><Link to="/Proyectos" onClick={()=>{ setOpen(!open) }}><p>Proyectos</p></Link></li>
+              <li className="menu-list-item"><Link to="/Formacion" onClick={()=>{ setOpen(!open) }}><p>Formacion</p></Link></li>
+              <li className="menu-list-item"><Link to="/Contacto" onClick={()=>{ setOpen(!open) }}><p>Contacto</p></Link></li>
+              {/* <li className="menu-list-item"><Link to="/error404" onClick={()=>{ setOpen(!open) }}><p>404</p></Link></li> */}
+            </ul>
+        </nav>
+      </div>
     </header>
   );
 }

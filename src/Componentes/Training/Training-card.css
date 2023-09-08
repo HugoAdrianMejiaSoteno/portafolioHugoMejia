@@ -1,6 +1,7 @@
 .card-container{
   height: 250px;
   width: 380px;
+  margin-bottom: 5px;
 }
 
 .card-container:hover{

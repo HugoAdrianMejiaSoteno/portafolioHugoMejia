@@ -1,9 +1,11 @@
-.main-container{
-    height: 550px;
-    width: 100%;
+.training-containerF{
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    align-content: center;
+    width: 100% !important;
+    height: 550px;
+
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 70px; /*Esto es para que haya un margen con el header que ya esta ajustado y fijo*/
 }

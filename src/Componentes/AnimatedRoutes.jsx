@@ -15,14 +15,15 @@ const AnimatedRoutes = ()=>{
     const location = useLocation(); //Es para que react-router-dom pueda identificar a que componente le va a agregar la transision
     //AnimatePresence debe de engrapar a Routes con las rutas
     return(
-        <AnimatePresence> 
+        <AnimatePresence className='xd'> 
             <Routes location={location} key={location.pathname}>
-                <Route path="/" element={<Presentation/>}/>
-                <Route path="/Sobre-mi" element={<AboutMe/>}></Route>
+                <Route path='/' element={<Presentation/>}/>
+                <Route path='/Sobre-mi' element={<AboutMe/>}></Route>
                 <Route path='/Skills' element={<Skills/>}></Route>
+                <Route path='/Formacion' element={<Training/>}></Route>
                 <Route path='/Proyectos' element={<Proyectos/>}></Route>
-                <Route path="/Formacion" element={<Training/>}></Route>
                 <Route path='/Contacto' element={<Contacto/>}></Route>
+                <Route path='/error404' element={<Error/>}></Route>
                 <Route path='*' element={<Error/>}></Route>
             </Routes>
         </AnimatePresence>

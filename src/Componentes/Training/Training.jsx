@@ -9,7 +9,7 @@ import AcademiaX from "../../imagenes/AcademiaX.png"
 import { motion } from 'framer-motion';
 const Training = ()=>{
     return (
-        <motion.main className="main-container" initial={{width:0}} animate={{width:"100%"}} exit={{x:window.innerWidth, transition:{duration:0.1}}}>
+        <motion.main className="training-containerF" initial={{width:0}} animate={{width:"100%"}} exit={{x:window.innerWidth, transition:{duration:0.1}}}>
             <TrainingCard imagen={Unitec} titulo="Ingenieria en sistemas computacionales" institution="2021-2025 - UNITEC"/>
             <TrainingCard imagen={Alura} titulo="Desarrollo de software frontend" institution="2022-2023 - Alura Latam"/>
             <TrainingCard imagen={Oracle} titulo="Desarrollo React JS" institution="2022-2023 - Oracle Next Education"/>
