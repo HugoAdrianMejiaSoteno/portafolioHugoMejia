@@ -9,7 +9,7 @@ const Header = ()=>{
         
       <div className='MiNombre '>
         <FaReact className='icono'/>
-        <Link to="/" className='nombre'><h3><span className='yellow'>H</span>ugo <span className='blue'> A</span>drian <span className='green'>M</span>ejia <span className='orange'> S</span>oteno</h3></Link>
+        <Link to="/" className='nombre' onClick={()=>{ open && setOpen(!open) }}><h3><span className='yellow'>H</span>ugo <span className='blue'> A</span>drian <span className='green'>M</span>ejia <span className='orange'> S</span>oteno</h3></Link>
       </div>
       <div className={`btn-navbar ${open && 'open'}`} onClick={()=>{ setOpen(!open) }}>
         {/* esto va a ser para que con las nav hagamos el icono */}

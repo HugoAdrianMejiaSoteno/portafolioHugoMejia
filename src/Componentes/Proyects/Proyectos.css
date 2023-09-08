@@ -3,22 +3,33 @@
     height: 800px;
     margin-top: 90px; /*Esto es para que haya un margen con el header que ya esta ajustado y fijo*/
 }
-
-.intro-proyectos{
-    font-size: 35px;
-    text-align: center;
-    margin-bottom: 2px;
+.titulo-proyectos{
+    margin: 0px;
 }
+.intro-proyectos{
+    font-size: 40px;
+    text-align: center;
+}
+
+
 
 @media (max-width: 768px) {
     /* Estilos a aplicar cuando el ancho de la pantalla es igual o menor a 768px */
     .Proyectos-container {
         height: 100%;
-        margin-top: 80px;
+        margin-top: 62px;
+        background-color: rgb(236, 236, 236);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titulo-proyectos{
     }
 
     .intro-proyectos{
-        margin-bottom: 20px;
+
     }
 
   }

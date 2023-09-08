@@ -1,15 +1,14 @@
 .Proyecto-container{
-    background-color: red;
     width: 100%;
     height: 350px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 5px;
+
 }
 
 .imagen-proyecto-container {
-    background-color: aqua;
     height: 90%;
     width: 50%;
     display: flex;
@@ -28,8 +27,11 @@
 }
 
 .textos-proyecto{
-    padding-right: 150px;
-    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 70%;
+    padding-right: 100px;
     text-align: center;
 }
 
@@ -41,7 +43,27 @@
 .descripcion-proyecto{
     margin-top: 0px;
     font-size: 15px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.imgTecnologia-container{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imagen-tec{
+    margin: 2px;
+    height: 70%;
+    width: 50px;
+    margin: 5px;
+}
+
+.imagen-tec:hover{
+    transform: scale(1.1);
 }
 
 .botones-proyecto{
@@ -67,12 +89,14 @@
 @media (max-width: 768px) {
     /* Estilos a aplicar cuando el ancho de la pantalla es igual o menor a 768px */
     .Proyecto-container {
+        background-color: white;
         margin: 0px;
         padding: 0px;
         display: flex;
         flex-direction: column;
         height: 350px;
-        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 30px;
     }
 
     .imagen-proyecto-container{
@@ -80,7 +104,7 @@
         margin: 0px;
         display: flex;
         width: 100%;
-        height: 200px;
+        height: 50%;
         justify-content: center;
         align-items: center;
     }
@@ -88,8 +112,8 @@
     .imagen-proyecto{
         margin: 0px;
         padding: 0px;
-        height: 170px;
-        width: 340px;
+        height: 100%;
+        width: 100%;
     }
 
     .info-proyecto{
@@ -99,7 +123,7 @@
         align-items: center;
         flex-direction: column;
         justify-content: center;
-        height: 150px;
+        height: 50%;
         width: 100%;
     }
 
@@ -109,19 +133,33 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: 75%;
+        width: 90%;
     }
 
     .titulo-proyecto{
         margin: 0px;
         padding: 0px;
+        margin-top: 10px;
         margin-bottom: 5px;
-        margin-bottom: 15px;
+        font-size: 25px;
     }
 
     .descripcion-proyecto{
         margin: 0px;
         padding: 0px;
-        margin-bottom: 15px;
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+
+    .imgTecnologia-container{
+        width: 90%;
+        height: 35%;
+    }
+
+    .imagen-tec{
+        height: 26px;
+        width: 30px;
     }
 
     .botones-proyecto{
@@ -129,10 +167,8 @@
         justify-content: space-between;
         margin: 0px;
         padding: 0px;
-        width: 60%;
-        height: 30px;
-        margin-top: 10px;
-
+        width: 75%;
+        height: 25%;
     }
     .MuiButton-root{
         position: static;

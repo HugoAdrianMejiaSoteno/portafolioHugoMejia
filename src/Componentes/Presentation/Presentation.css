@@ -193,6 +193,15 @@
     50% { border-color: transparent}
    }
 
+@media (max-width: 1165px) {
+    .presentation-titulo{
+        font-size: 30px;
+    }
+    .p-titulo{
+        font-size: 16px;
+    }
+}
+
 @media (max-width: 768px) {
     /* Estilos a aplicar cuando el ancho de la pantalla es igual o menor a 768px */
     .presentation-container {
